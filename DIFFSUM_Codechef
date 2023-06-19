@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(void) {
+	int x;
+	int y;
+	scanf("%d",&x);
+	scanf("%d",&y);
+	{
+	    
+	    if(x>y){
+	        int a=x-y;
+	        printf("%d\n",a);
+	    }
+	    else{
+	        int b=x+y;
+	        printf("%d\n",b);
+	    }
+	}
+	return 0;
+}
