@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main(void) {
+	int x;
+	int t;
+	int y;
+	scanf("%d",&t);
+	while(t-->0)
+	{
+	    scanf("%d",&x);
+	    scanf("%d",&y);
+	    int a=0;
+	    for(int i=x;i<=y;i++)
+	    {
+	    if(i%10==2 || i%10==3 || i%10==9 )
+	    {
+	        a++;
+	    }
+	 }
+	 printf("%d\n",a);
+	}
+	return 0;
+}
+
