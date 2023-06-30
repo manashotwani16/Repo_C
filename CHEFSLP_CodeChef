@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main(void) {
+	int x;
+	int t;
+	int y;
+	int z;
+	scanf("%d",&t);
+	while(t-->0)
+	{
+	    scanf("%d",&x);
+	    scanf("%d",&y);
+	    scanf("%d",&z);
+	    int a = x-y;
+	    if(a>=y){
+	        int b = y*z;
+	        printf("%d\n",b);
+	    }
+	    else{
+	        int c = a*z;
+	        printf("%d\n",c);
+	    }
+	}
+	return 0;
+}
+
